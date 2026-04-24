@@ -52,7 +52,7 @@ function LoginScreen({ onLogin }) {
               type="password" 
               value={password} 
               onChange={(e) => setPassword(e.target.value)} 
-              placeholder="Enter password"
+              placeholder={role === 'teacher' ? 'e.g., teacher123' : 'e.g., student123'}
               style={{ width: '100%', padding: '12px', borderRadius: '8px', border: '1px solid #ccc', outline: 'none', fontSize: '1rem', boxSizing: 'border-box' }}
             />
           </div>

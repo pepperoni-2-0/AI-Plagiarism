@@ -1,27 +1,29 @@
-# AI Plagiarism Detector
+# AI Plagiarism Detector 🚀
 
-A modern, student-friendly web application designed to help identify AI-generated content and maintain academic integrity.
+Welcome to the **AI Plagiarism Detector**! This application is designed to help educational institutions maintain academic integrity by providing robust plagiarism detection for student submissions.
 
-## Features
+## 🌟 Features
 
-- **Direct Submission**: Easy-to-use form for students to submit their work for checking.
-- **Dynamic Dashboard**: Interactive results visualization using n8n-powered analysis.
-- **Originality Reports**: Detailed breakdown of human vs. AI content levels.
-- **Modern UI**: Clean, responsive design built with React, Vite, and Framer Motion.
+- **Student Portal:** A seamless interface for students to submit their assignments securely.
+- **Teacher Dashboard:** A comprehensive analytical dashboard for educators to review submissions, check similarity scores, and review flagged content.
+- **Role-Based Access:** Secure login system differentiating between students and teachers.
+- **Real-Time Data Integration:** Connects seamlessly with Google Sheets to fetch and process live submissions.
+- **Downloadable Reports:** Teachers can export PDF reports of the plagiarism analysis for record-keeping or sharing.
 
-## Tech Stack
+## 🔐 Demo Access
 
-- **Frontend**: React 19, Vite
-- **Styling**: Vanilla CSS with Glassmorphism
-- **Animations**: Framer Motion
-- **Data Parsing**: Papaparse
-- **Icons**: Lucide React
+To explore the application, you can use the following sample credentials on the login screen:
 
-## Getting Started
+### 🎓 Student Access
+- **Role:** Student
+- **Password:** `student123`
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
+### 🧑‍🏫 Teacher Access
+- **Role:** Teacher
+- **Password:** `teacher123`
 
-
-
+## 💻 Tech Stack
+- **Frontend:** React, Vite, Framer Motion for animations.
+- **Styling:** CSS Modules / Vanilla CSS with modern aesthetics.
+- **Icons:** Lucide React.
+- **Deployment:** Vercel.
